@@ -1,4 +1,5 @@
-export default {
+const state = {
+    makes: [],
     user: {
         username: 'test-user-1',
         email: 'test-user@example.com'
@@ -147,3 +148,4 @@ export default {
     ]
   };
   
+  export default state;
